@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Post.Common\Post.Common\Post.Common.csproj" />
+      <ProjectReference Include="..\..\SocialMedia.EventSourcing\SocialMedia.EventSourcing.csproj" />
+    </ItemGroup>
+
+</Project>

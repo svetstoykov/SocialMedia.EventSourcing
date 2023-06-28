@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.7" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Post.Common\Post.Common\Post.Common.csproj" />
+      <ProjectReference Include="..\..\SocialMedia.EventSourcing\SocialMedia.EventSourcing.csproj" />
+      <ProjectReference Include="..\Post.Command.Domain\Post.Command.Domain.csproj" />
+      <ProjectReference Include="..\Post.Command.Infrastructure\Post.Command.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
